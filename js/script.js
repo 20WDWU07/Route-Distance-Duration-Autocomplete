@@ -1,5 +1,8 @@
 
 console.log(key);
+  //////////////////////////////////////////////////////////////////////////
+//remember to add libraries=places in the line below
+  //////////////////////////////////////////////////////////////////////////
 var script = '<script src="https://maps.googleapis.com/maps/api/js?key='+ key +'&callback=initMap&libraries=places&v=weekly" async defer></script>';
 console.log(script);
 
